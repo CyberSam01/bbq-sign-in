@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+
+/* FONTS */
+
+.section-top h1 {
+    color: #fff;
+    font-size: 4.5rem;
+    font-weight: 400;
+    margin-bottom: 2em;
+}
+
+.section-top span {
+    font-weight: 900;
+}
+
+.section-top h2 {
+    font-size: 2.2rem;
+    margin-top: 0;
+}
+
+.top-text {
+    background: linear-gradient(to left, #ffa51d 0%, #ff713b 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 
+    border-top: 5px solid #ffa51d ;   
+    border-image: linear-gradient(to left, #ffa51d 0%, #ff713b 100%) 1;
+    margin-top: 0;
+    margin-bottom: 3em;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 2.3rem;
+    margin-bottom: .1em;
+}
+
+h4 {
+    margin:0;
+    font-size: 1.9rem;
+}
+
+h4 + p {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.permission-p {
+    width: 200px;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* SECTIONS */
+
+.section-top {
+    text-align: center;
+    background-image: url(/images/ribs.jpg);
+    background-color: #858080;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 2.5em 2em 2.5em ; 
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    min-height: 50vh;
+}
+
+.section-bottom {
+    text-align: center;
+    padding: 0 2.5em 5em 2.5em;
+}
+
+/* SETTING A MAX WIDTH OF EVERYTHING TO HANDLE LARGE SCREENS */
+.section-top > *,
+.section-bottom > * {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* FORMS */
+
+form {
+    width: 80%;
+    max-width: 300px;
+}
+
+form input,
+form button {
+    font-family: inherit;
+    width: 100%;
+    border-radius: 4.6px;
+    max-width: 235px;
+    font-size: 1.4;
+}
+
+form input {
+    text-align: center;
+    margin-bottom: .75em;
+    border: 1px solid rgb(196, 194, 194);
+    padding: .5em;
+    font-size: 1.5em;
+}
+
+form button {
+    background: linear-gradient(to left, #ffa51d 0%, #ff713b);
+    border: none;
+    color: white;
+    padding: .6em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: transform 250ms;
+}
+
+form button:hover,
+form button:focus,
+form input:focus {
+    transform: scale(1.1)
+}
+
+/* UTILLITY */
+
+.orange-all-cap {
+    text-transform: uppercase;
+    color: #f18119;
+}
+
+@media (min-width:940px){
+    body{
+        display: flex;
+        font-size: 1.125rem;
+        min-height: 98vh;
+    }
+
+    .section-top h1 {
+        margin-bottom: 0;
+    }
+
+    .section-top h2 {
+        font-size: 2rem;
+    }
+
+    .section-one-p p{
+        margin-bottom: 0;
+    }
+
+    .section-top {
+        width: 65%;
+        
+    }
+    .section-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 35%;
+        padding: 0 2.5em;
+    }
+
+}
