@@ -1,7 +1,5 @@
 https://user-images.githubusercontent.com/79755067/170870297-e598b804-5eb0-4e31-b09f-7d43eef23ba0.mp4
 
-# 
-
 ## Supporting Scrimba
 
 Since 2017, we have created over 20 free courses on Scrimba, and we're going to
