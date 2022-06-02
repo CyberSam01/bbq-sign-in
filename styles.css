@@ -68,7 +68,7 @@ h4 + p {
 
 .section-top {
     text-align: center;
-    background-image: url(/images/ribs.jpg);
+    background-image: url(images/ribs.jpg);
     background-color: #858080;
     background-blend-mode: multiply;
     background-size: cover;
